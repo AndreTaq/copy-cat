@@ -1,0 +1,33 @@
+
+.navbar {
+    /* border: solid 1px rgb(68, 0, 255); */
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+ul li {
+    /* border: solid 1px red; */
+    margin: 10px;
+}
+
+ul li:nth-child(2) {
+    font-size: 30px;
+    font-family: Georgia;
+    font-style: italic;
+    margin-top: 0px;
+  }
+
+.header {
+    background-image: url(images/background.jpg);
+    background-size: contain;
+    height: 300px;
+    border: solid 1px;
+}
+
+h1 {
+    /* border: solid 1px rgb(166, 255, 0); */
+    color: rgb(252, 252, 252);
+    text-align: center;
+    margin-top: 40px;
+}
